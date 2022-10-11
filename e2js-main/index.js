@@ -95,7 +95,7 @@ var data = [
 	}  
 ]
 
-console.log("Actual Data --> " + data);
+console.table(data);
 
 var x = -450;
 var y = 250;
@@ -117,7 +117,7 @@ const formattedData = data.map((item, index) => {
 	data.shape = item.shape;
 	return data;
 });
-console.log("Formatted Data --> " + formattedData);
+console.table(formattedData);
 
 
 var connectors = [ 
